@@ -1,4 +1,0 @@
-baseURL = 'https://kpachnar.netlify.app/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hugo-PaperMod"

@@ -1,0 +1,25 @@
+baseURL: 'https://kpachnar.netlify.app/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: 'hugo-PaperMod'
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON 
+menu:
+    main:
+        - name: 搜索
+          url: search/
+          weight: 10
+params:
+    # 添加搜索参数，参考 https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        includeMatches: true
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
